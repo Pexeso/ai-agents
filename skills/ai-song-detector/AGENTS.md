@@ -28,7 +28,7 @@ PEX_CLIENT_SECRET=<your_client_secret>
 Key fields (present only when `status` is `"ok"`):
 - `is_ai` (bool) — the classification decision. Use this for logic, not `ai_score`.
 - `ai_score` (float, 0–1) — ranking/QA signal. Not a calibrated probability.
-- `predicted_model` (string|null) — AI platform: `"suno"`, `"udio"`, `"mureka"`, `"sonauto"`, `"elevenlabs"`, `"boomy"`, `"lyria"`, `"producer.ai"`. Null when attribution confidence is low.
+- `predicted_model` (string|null) — AI platform: `"suno"`, `"udio"`, `"mureka"`, `"sonauto"`, `"eleven_labs"`, `"boomy"`, `"lyria"`, `"producer_ai"`. Null when attribution confidence is low.
 - `predicted_model_score` (float) — attribution confidence. Present when `predicted_model` is set.
 
 ## Usage
