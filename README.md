@@ -31,7 +31,6 @@ The Pex MCP server is available at https://api.ae.pex.com/mcp. See `mcp.json` fo
 
 It provides the following tools:
 
-
 - Tool: `detect_ai_song_from_url`
   - Description: Detects whether audio from a URL is AI-generated.
   - Parameters: `url` (string): The URL of the audio to analyze.
