@@ -10,7 +10,7 @@
             {
               "name": "url",
               "type": "str",
-              "description": "The URL to analyze."
+              "description": "The URL of a media file to analyze."
             }
           ]
         },
