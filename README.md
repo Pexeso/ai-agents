@@ -24,3 +24,30 @@ By importing these skills into your AI agent's environment, you enable it to:
 1.  **Navigate Pex Tools**: Understand Pex’s query syntax and metadata structures.
 2.  **Automate Compliance**: Build workflows that automatically flag AI-generated content or copyright issues.
 3.  **Enhance Attribution**: Leverage Pex's industry-leading registry to accurately attribute content to rightsholders.
+
+# Pex MCP - Model Context Protocol
+
+The Pex MCP server is available at https://mcp.higgsfield.ai/mcp. See `mcp.json` for details
+
+It provides the following tools:
+
+
+- Tool: `detect_ai_song_from_url`
+  - Description: Detects whether audio from a URL is AI-generated.
+  - Parameters: `url` (string): The URL of the audio to analyze.
+  - Returns: A dictionary containing the detection result, including fields like `is_ai` and `ai_score`.
+
+- Tool: `detect_ai_song_from_base64`
+  - Description: Detects whether base64-encoded audio is AI-generated.
+  - Parameters: `file_contents` (string): The base64-encoded audio data.
+  - Returns: A dictionary containing the detection result.
+
+Client *ID* and Client *secret* must be filled-in when adding the MCP connector to the AI agent.
+While adding the connector, the AI Agent will show the authorization consent page (https://api.ae.pex.com/mcp/oauth/authorize).
+
+Authorization for MCP server was tested with:
+
+- Claude
+- Grok - choose `"Token Auth Method" = client_secret_post` or `client_secret_basic`
+- Gemini CLI
+- ChatGPT
