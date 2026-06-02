@@ -27,7 +27,7 @@ By importing these skills into your AI agent's environment, you enable it to:
 
 # Pex MCP - Model Context Protocol
 
-The Pex MCP server is available at https://mcp.higgsfield.ai/mcp. See `mcp.json` for details
+The Pex MCP server is available at https://api.ae.pex.com/mcp . See `mcp.json` for details
 
 It provides the following tools:
 
