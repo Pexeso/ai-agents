@@ -42,7 +42,7 @@ It provides the following tools:
   - Parameters: `file_contents` (string): The base64-encoded audio data.
   - Returns: A dictionary containing the detection result.
 
-Client *ID* and Client *secret* must be filled-in when adding the MCP connector to the AI agent.
+*Client ID* and *Client Secret* must be filled-in when adding the MCP connector to the AI agent.
 While adding the connector, the AI Agent will show the authorization consent page (https://api.ae.pex.com/mcp/oauth/authorize).
 
 Authorization for MCP server was tested with:
