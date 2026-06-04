@@ -27,7 +27,7 @@ By importing these skills into your AI agent's environment, you enable it to:
 
 # Pex MCP - Model Context Protocol
 
-The Pex MCP server is available at https://api.ae.pex.com/mcp. See `mcp.json` for details.
+The Pex MCP server is available at https://mcp.pex.com/mcp. See `mcp.json` for details.
 
 It provides the following tools:
 
@@ -44,7 +44,7 @@ It provides the following tools:
 *Client ID* and *Client Secret* must be filled-in when adding the MCP connector to the AI agent.
 While adding the connector, the AI Agent will show the authorization consent page (https://api.ae.pex.com/mcp/oauth/authorize).
 
-Authorization for MCP server was tested with:
+Authorization for the MCP server was tested with:
 
 - Claude
 - Grok - choose "Token Auth Method" = `client_secret_post` or `client_secret_basic`

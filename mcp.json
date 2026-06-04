@@ -2,7 +2,7 @@
   "mcpServers": {
     "pex": {
       "type": "http",
-      "url": "https://api.ae.pex.com/mcp",
+      "url": "https://mcp.pex.com/mcp",
       "tools": {
         "detect_ai_song_from_url": {
           "description": "Detect whether audio from URL is AI-generated.",
