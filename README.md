@@ -47,6 +47,6 @@ While adding the connector, the AI Agent will show the authorization consent pag
 Authorization for MCP server was tested with:
 
 - Claude
-- Grok - choose `"Token Auth Method" = client_secret_post` or `client_secret_basic`
+- Grok - choose "Token Auth Method" = `client_secret_post` or `client_secret_basic`
 - Gemini CLI
 - ChatGPT
