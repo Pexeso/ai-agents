@@ -42,7 +42,7 @@ It provides the following tools:
   - Returns: A dictionary containing the detection result.
 
 *Client ID* and *Client Secret* must be filled-in when adding the MCP connector to the AI agent.
-While adding the connector, the AI Agent will show the authorization consent page (https://api.ae.pex.com/mcp/oauth/authorize).
+While adding the connector, the AI Agent will show the authorization consent page (https://mcp.pex.com/mcp/oauth/authorize).
 
 Authorization for the MCP server was tested with:
 
