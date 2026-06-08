@@ -33,7 +33,7 @@ It provides the following tools:
 
 - `detect_ai_song_from_url`
   - Detects whether audio from a URL is AI-generated.
-  - Parameters: `url` (string): The URL of the audio to analyze.
+  - Parameters: `url` (string): The URL of the audio file to analyze.
   - Returns: A dictionary containing the detection result, including fields like `is_ai` and `ai_score`.
 
 - `detect_ai_song_from_base64`
