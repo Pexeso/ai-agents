@@ -44,7 +44,7 @@ It provides the following tools:
 *Client ID* and *Client Secret* must be filled-in when adding the MCP connector to the AI agent.
 While adding the connector, the AI Agent will show the authorization consent page.
 
-To get *Client ID* and *Client Secret* please go to https://pex.com/contact/ and fill in the short registration form. 
+To get *Client ID* and *Client Secret* please go to https://pex.com/contact/ and fill in the registration form. 
 
 Authorization for the MCP server was tested with:
 
