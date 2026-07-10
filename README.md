@@ -6,7 +6,7 @@ technology company Pex in 2025. Read more about the acquisition [here](https://p
 
 This repository provides a collection of modular Agent Skills — standardized instructions and resources
 that allow AI agents (like Claude Code, GitHub Copilot, or custom LLM workflows) 
-to effectively interface with Vobile’s advanced ACR (Automatic Content Recognition) and AI-detection technologies.
+to effectively interface with Vobile’s ACR (Automatic Content Recognition) and AI-detection technologies.
 
 ## 📂 Repository Structure
 
