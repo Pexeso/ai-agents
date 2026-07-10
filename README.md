@@ -1,7 +1,7 @@
 # Vobile AI Agent Skills
 
 Welcome to Vobile's AI Agent Skills repository. Vobile is the global leader 
-in digital content protection and acquired the leading music dentification 
+in digital content protection and acquired the leading music identification 
 technology company Pex in 2025. Read more about the acquisition [here](https://pex.com/blog/vobile-completes-acquisition-of-pex/).
 
 This repository provides a collection of modular Agent Skills — standardized instructions and resources
