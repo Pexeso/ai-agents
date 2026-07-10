@@ -48,7 +48,7 @@ It provides the following tools:
 *Client ID* and *Client Secret* must be filled-in when adding the MCP connector to the AI agent.
 While adding the connector, the AI Agent will show the authorization consent page.
 
-To get *Client ID* and *Client Secret* please [reach out](https://pex.com/contact/) to the Vobile Music Team.
+To get *Client ID* and *Client Secret* please reach out to the [Vobile Music Team](https://pex.com/contact/).
 
 Authorization for the MCP server was tested with:
 
