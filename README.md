@@ -1,4 +1,4 @@
-# Voile AI Agent Skills
+# Vobile AI Agent Skills
 
 Welcome to Vobile's AI Agent Skills repository. Vobile is the global leader 
 in digital content protection and acquired the leading music dentification 
