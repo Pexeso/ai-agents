@@ -29,7 +29,7 @@ By importing these skills into your AI agent's environment, you enable it to:
 2.  **Automate Compliance**: Build workflows that automatically flag AI-generated content or copyright issues.
 3.  **Enhance Attribution**: Leverage Vobile's industry-leading registry to accurately attribute content to rightsholders.
 
-# Pex MCP - Model Context Protocol
+# Vobile MCP - Model Context Protocol
 
 The Vobile MCP server is available at https://mcp.pex.com/mcp . See [mcp.json](https://github.com/Pexeso/ai-agents/blob/main/mcp.json) for details.
 
