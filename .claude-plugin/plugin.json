@@ -1,0 +1,10 @@
+{
+  "name": "vobile-agents",
+  "description": "Vobile public agent skills: AI-generated music detection via the AI Song Detector API, plus the Vobile MCP server.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pex/Vobile",
+    "url": "https://pex.com/contact/"
+  },
+  "mcpServers": "./mcp.json"
+}

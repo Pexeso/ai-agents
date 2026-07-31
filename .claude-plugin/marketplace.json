@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "vobile-agents",
+  "description": "Vobile/Pex public agent skills: AI-generated music detection and ACR tooling.",
+  "owner": {
+    "name": "Pex/Vobile",
+    "url": "https://github.com/Pexeso/ai-agents"
+  },
+  "plugins": [
+    {
+      "name": "vobile-agents",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "Vobile public skills. Installs ai-song-detector and the Vobile MCP server.",
+      "category": "development",
+      "keywords": ["vobile", "pex", "ai-detection", "music", "acr"],
+      "skills": [
+        "./skills/ai-song-detector"
+      ]
+    }
+  ]
+}
