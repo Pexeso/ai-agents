@@ -1,5 +1,5 @@
 ---
-name: pex-ai-song-detector
+name: ai-song-detector
 description: >
   Detect whether an audio file contains AI-generated music using the Pex AI Song Detector API.
   Use this skill whenever the user wants to check if a song or audio file was created by AI,

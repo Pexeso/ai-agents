@@ -2,29 +2,7 @@
   "mcpServers": {
     "pex": {
       "type": "http",
-      "url": "https://mcp.pex.com/mcp",
-      "tools": {
-        "detect_ai_song_from_url": {
-          "description": "Detect whether audio from URL is AI-generated.",
-          "parameters": [
-            {
-              "name": "url",
-              "type": "str",
-              "description": "The URL of a media file to analyze."
-            }
-          ]
-        },
-        "detect_ai_song_from_base64": {
-          "description": "Detect AI songs from base64-encoded audio bytes.",
-          "parameters": [
-            {
-              "name": "file_contents",
-              "type": "str",
-              "description": "Base64-encoded file contents."
-            }
-          ]
-        }
-      }
+      "url": "https://mcp.pex.com/mcp"
     }
   }
 }

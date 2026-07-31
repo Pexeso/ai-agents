@@ -1,0 +1,30 @@
+name: validate-skills
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate-skills:
+    name: Manifest matches skills/
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # This check ensures all skills directories match skills
+      # listed in the .claude-plugin/markeplace.json manifest exactly
+      - name: Compare manifest against skills/
+        run: |
+          jq -r '.plugins[].skills[]' .claude-plugin/marketplace.json | sed 's|.*/||' | sort -u > manifest.txt
+          ls skills/*/SKILL.md | cut -d/ -f2 | sort -u > disk.txt
+
+          if diff -q manifest.txt disk.txt > /dev/null; then
+            echo "OK - manifest .claude-plugin/marketplace.json lists exactly the $(wc -l < disk.txt) skills in skills/"
+            sed 's/^/  /' disk.txt
+          else
+            echo "NOT OK - .claude-plugin/marketplace.json manifest and skills/ are not 1:1"
+            comm -23 manifest.txt disk.txt | sed 's|^|  listed in manifest, missing from skills/: |'
+            comm -13 manifest.txt disk.txt | sed 's|^|  present in skills/, missing from manifest: |'
+            exit 1
+          fi
